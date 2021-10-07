@@ -1,4 +1,5 @@
 import "./AuctionMasterFooter.css";
+import AMLogo from '../../../Assets/AMLogo.png'
 import data from "./AuctionMasterFooter.json";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 function AuctionMasterFooter() {
@@ -32,22 +33,22 @@ function AuctionMasterFooter() {
                       <li>
                         <div className="amfooter-icons">
                           <img
-                            src="./fb.png"
+                            src="https://i.ibb.co/JzTXVXQ/Facebook.png"
                             alt="facebook logo"
-                            className="fb"
+                            className="socialmedia-icons fb"
                           />
                           <img
-                            src="./twitter.png"
+                            src="https://i.ibb.co/LCrmbdd/Twitter.png"
                             alt="twitter logo"
                             className="socialmedia-icons twitter"
                           />
                           <img
-                            src="./instagram.png"
+                            src="https://i.ibb.co/9wznL8w/Instagram.png"
                             alt="instagram logo"
                             className="socialmedia-icons instagram"
                           />
                           <img
-                            src="./linkedin.png"
+                            src="https://i.ibb.co/rdzRV7P/Linked-In.png"
                             alt="linkedin logo"
                             className="socialmedia-icons linkedin"
                           />
@@ -62,13 +63,13 @@ function AuctionMasterFooter() {
       </div>
       <hr className="footer-row" />
       <div className="footer-paymets">
-        <img src="./AMlogo.png" alt="am-logo" className="am-footer-logo" />
+        <img src={AMLogo} alt="am-logo" className="am-footer-logo" />
         <div className="payment-options">
-          <img src="./paypal.png" alt="paypal" className="payment-cards" />
-          <img src="./visa.png" alt="visa" className="payment-cards" />
-          <img src="./discover.png" alt="discover" className="payment-cards" />
+          <img src="https://i.ibb.co/yn3ZNtk/paypal.png" alt="paypal" className="payment-cards" />
+          <img src="https://i.ibb.co/tb9G4cv/visa.png" alt="visa" className="payment-cards" />
+          <img src="https://i.ibb.co/W25X7vb/discover.png" alt="discover" className="payment-cards" />
           <img
-            src="./mastercard.png"
+            src="https://i.ibb.co/fvz7JN6/mastercard.png"
             alt="mastercard"
             className="payment-cards"
           />
