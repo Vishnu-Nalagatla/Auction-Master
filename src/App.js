@@ -10,7 +10,7 @@ function App() {
       <div className="nav-container"><Navbar></Navbar></div>
       <AuctionHomePage></AuctionHomePage>
 
-      <ProductsServices></ProductsServices>
+      {/* <ProductsServices></ProductsServices> */}
 
     </div>
   );
