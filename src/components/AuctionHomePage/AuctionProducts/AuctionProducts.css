@@ -1,0 +1,132 @@
+
+.auction-items-container{
+    background: #e0e0e0;
+    padding: 77px 9% 100px 9%;
+}
+.auction-header,
+.auction-description{
+    text-align: center;
+    /* margin:0; */
+}
+.auction-header{
+    font-size:40px;
+    font-weight: 500;
+}
+.auction-item-cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.auction-product-items {
+    width: 100%;
+}
+
+.auction-cards{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-top:8px;
+    width: 400px;
+    height: 580px;
+}
+.auction-card-image-container{
+    padding: 2.9% 3.8% 4.8% 3.8%;
+}
+.auction-card-images{
+    width: 100%;
+    height: 260px;
+}
+.auction-item-name{
+    font-size: 1.5em;
+    padding: 0% 3.8% 4.8% 4.1%;
+    font-weight: 500;
+    text-align: left;
+}
+.auction-actions-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3.4% 2.8% 4.7% 4.4%;
+}
+
+
+.auction-current-bid-container {
+    padding-left: 8px;
+}
+.auction-actions-current-bid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+ .auction-actions-buynow-bid {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.auctions-action-name{
+    font-size: 17px;
+    font-weight:bold;
+}
+.auctions-action-amount{
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 18px;
+    color:#000;
+    text-align: left;
+}
+.action-current{
+    color: #43b055;
+    text-align:left;
+}
+.action-buynow{
+    text-align:left;
+    color: #ee4730;
+}
+.auction-action-image-current{
+    width:34px;
+    height:33px;
+    margin:6.5px 0 0 0;
+}
+.auction-action-image-buynow{
+    width:27px;
+    height:37px;
+    margin:6px 10px 0 5px ;
+}
+
+.auction-buynow-amount {
+    width: 80%;
+}
+.bid-duration-count{
+    padding: 3% 2.9% 6% 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.bid-time-left{
+    color: #f00;
+    font-size: 21px;
+    font-weight: bold;
+}
+.bid-count{
+    color: #43b055;
+    font-size:20px;
+    font-weight: bold;
+}
+.auction-card-btn{
+    font-size:23px;
+    width: 246px;
+    height:59px;
+    background: #1c1c1c;
+    color:#fff;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.auctions-submit-btn {
+    padding-top: 2%;
+
+}

@@ -1,0 +1,17 @@
+
+
+.product-filter-container {
+    display: flex;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.product-filter-range-checkbox {
+    width: 28%;
+    /* border: 2px solid green; */
+}
+
+.product-filter-sortby {
+    width: 72%;
+    padding-left: 2.5%;
+    /* border: 2px solid blue; */
+}

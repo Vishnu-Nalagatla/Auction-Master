@@ -1,0 +1,116 @@
+
+
+.seller-body-login {
+    width: 100%;
+    height: 45vh;
+    background: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(c40px);
+    padding: 0.5em;
+    border-radius: 10px;
+    z-index: 1;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
+    /* border: solid 2px rgb(255, 0, 0); */
+    display: grid;
+
+}
+
+
+
+.input-firstName { 
+    grid-area: header;
+    padding-left: 4%;
+    border-radius: 5px;
+    
+}
+
+
+.input-email {
+     grid-area: left;
+    padding-left: 10%;
+     border-radius: 5px;
+  
+
+     }
+.input-phone { 
+    grid-area: right;
+    padding-left: 10%;
+    border-radius: 5px;
+    
+
+}
+.input-tellUs { 
+    grid-area: footer;
+    height: 15vh;  
+    padding-left: 4%;
+    border-radius: 5px;
+    font-size: 25px;
+
+    
+}
+
+.btn-writeUs {
+    grid-area: btn-left; 
+    background-color:green;
+}
+
+
+.product-submit-btn {
+    /* grid-area: btn-right; */
+    background-color:deepskyblue;
+    cursor: pointer;
+
+}
+
+.seller-grid-container {
+  display: grid;
+
+  /* grid-template-areas:
+    'header header header header header header'
+    'left left left right right right'
+    'footer footer footer footer footer footer'
+    'btn-left btn-left btn-left btn-right btn-right btn-right'; */
+  grid-gap: 5%;
+  padding: 10px;
+  
+}
+
+.seller-grid-container > input {
+  background-color: #ffff;
+  text-align: left;
+  width: 100%;
+  border: none;
+  height: 7vh;
+  color: #707070;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+}
+.seller-grid-container > button {
+    width: 100%;
+    height: 7vh; 
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+@media (max-width: 768px) {
+    .header-body-login {
+        width: 100%;
+        height: 47vh;
+        background: rgba(255,255,255, 0.2);
+        padding: 0.5em;
+        border-radius: 10px;
+        z-index: 1;
+        backdrop-filter: blur(40px);
+        background-clip: padding-box;
+        box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
+        /* border: solid 2px rgb(255, 0, 0); */
+        
+    }
+    .grid-container > input {
+        display:grid;
+        grid-gap: 5px;
+    }
+}

@@ -1,0 +1,95 @@
+
+.filter-bar-container {
+    border: 1px solid #707070;
+    border-radius: 6px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.sort-by-category {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.filter-bar-labels {
+    width: 41%;
+    font-size: 1em;
+    color: #000;
+}
+.sort-by-price  {
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.sort-by-options-price  {
+    border-radius: 25px;
+    border: solid 1px #e3e3e3;
+    font-family: Geomanist;
+    margin-left: 15px;
+    color:#000;
+    font-size: 21px;
+    width: 67%;
+    height: 49px;
+    outline: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.sort-by-options-items {
+
+    border-radius: 25px;
+    border: solid 1px #e3e3e3;
+    font-family: Geomanist;
+    margin-left: 15px;
+    color:#000;
+    font-size: 21px;
+    width: 80%;
+    height: 49px;
+    outline: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.filter-search {
+    width: 30%;
+    border: 1px solid #e3e3e3;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 0 20px;
+}
+
+
+.search-name {
+    width: 100%;
+    font-size: 25px;
+    /* padding-left: 20px; */
+    border: none;
+    outline: none;
+    text-align: left;
+
+}
+
+
+.search-icon {
+    width: 20px;
+  height: 20px;
+  margin: 0 1.3px 1.3px 0;
+  cursor: pointer;
+}
+
+.filter-bar-data {
+  
+    width:100%;
+    display: inline-flex;
+   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
