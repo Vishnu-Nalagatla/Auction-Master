@@ -1,0 +1,53 @@
+.am-footer-container{
+    background: #040d21;
+    color: white;
+    padding: 80px 68px 46px 70px;
+    margin-top: 70px;
+}
+.items{
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    list-style: none;
+    text-align: start;
+}
+.footer-group{
+    padding: 0 20px;
+    border:2px solid red;
+}
+li{
+    text-align:left;
+    line-height:2.05;
+}
+ .list-link{
+     color: white;
+     text-decoration: none;
+ }
+ .footer-paymets{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+ }
+ .firstone{
+     margin-right: 45px;
+ }
+ .lastone{
+     margin-left:23%;
+ }
+ .footer-categories{
+     margin-left: 37px;
+ }
+ .socialmedia-icons{
+    margin-left:8px;
+}
+.footer-row{
+    margin-top:10vh;
+}
+.payment-cards{
+    margin-left:20px;
+}
+.am-footer-logo{
+    width:103px;    
+}
+

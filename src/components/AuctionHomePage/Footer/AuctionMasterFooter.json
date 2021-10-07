@@ -1,0 +1,95 @@
+{
+    "footerLinks" : [
+        {
+            "group":"Auction Categories" ,
+            "groupId": "auction-categories",
+            "groupItems": [
+                {
+                    "name":"Vehicles",
+                     "urlLink" : "vehicles"
+                },
+                {
+                    "name":"Electronics",
+                    "urlLink":"electronics"
+                },
+                {
+                    "name":"Sports & Outdoor"
+                }
+            ]
+        },
+        {
+            "group":"About Us" ,
+            "groupId": "about-us",
+            "groupItems": [
+                {
+                    "name":"About AM",
+                     "urlLink" : "aboutAuctions"
+                },
+                {
+                    "name":"Help",
+                     "urlLink" : "help"
+                },
+                {
+                    "name":"Affiliates",
+                     "urlLink" : "affiliates"
+                },
+                {
+                    "name":"Jobs",
+                     "urlLink" : "jobs"
+                },
+                {
+                    "name":"Press",
+                     "urlLink" : "press"
+                },
+                {
+                    "name":"Our blog",
+                     "urlLink" : "auctionsblog"
+                }
+            ]
+        },
+        {
+            "group" : "We're Here to Help",
+            "groupId": "here-to-help",
+            "groupItems" : [
+                {
+                    "name":"Your Account",
+                     "urlLink" : "account"
+                },
+                {
+                    "name":"Safe and Secure",
+                     "urlLink" : "privacy"
+                },
+                {
+                    "name":"Shipping Information",
+                     "urlLink" : "shippinginfo"
+                },
+                {
+                    "name":"Contact Us",
+                     "urlLink" : "contact"
+                },
+                {
+                    "name":"Help & FAQ",
+                     "urlLink" : "help"
+                }
+            ]
+        },
+        {
+        "group" : "Follow Us",
+        "groupId": "follow-us",
+        "groupItems" : [
+            {
+                "name":"(910) 123-4575",
+                "sk":"abc"
+            },
+            {
+                "name":"(910) 123-4575"
+            },
+            {
+                "name":"help@AM.com"
+            },
+            {
+                "name":"QD Broadway suite"            }
+        ]
+    }
+    ]
+}
