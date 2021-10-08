@@ -21,9 +21,9 @@ function Header() {
           </p>
         </div>
         <div className="header-body-login-container">
-          {/* <Login></Login> */}
+          <Login></Login>
 
-          <SellerLoginPage />
+          {/* <SellerLoginPage /> */}
         </div>
       </div>
       <div className="header-footer"></div>
