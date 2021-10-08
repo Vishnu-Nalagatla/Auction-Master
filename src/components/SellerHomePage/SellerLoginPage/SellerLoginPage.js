@@ -26,7 +26,6 @@ function SellerLoginPage() {
     return (
         <>
            <div className="seller-body-login">
-           {/* <div className="seller-grid-container"> */}
            <form action="http://localhost:8080/SpringRest/add" method="post">
                <input type="text" className="product-name" placeholder="Product Name" name='productname' required />
                <select className="product-category" name="category" required>
@@ -39,22 +38,22 @@ function SellerLoginPage() {
                </select>
                <input type="text" className="base-bid" placeholder="Base Amount" required name="bidAmount" />
                <input type="file" className="product-images" multiple="true"  name="pImage" accept="image/*;capture=camera" />
-               {/* <div>
+               <div>
 
                         <span>
                         Auction End Date :
                         </span>
                         <input 
                         type = "datetime-local"
-                        value = { auctionEndDate }
-                        onChange = {onAuctionEndDate}
+                        // value = { auctionEndDate }
+                        // onChange = {onAuctionEndDate}
                         />
-                      {console.log(`date`, date)}
+                      {/* {console.log(`date`, date)}
                       {console.log(`month`, month)}
                       {console.log(`year`, year)}
                       {console.log(`hours`, hours)}
-                      {console.log(`minutes`, minutes)}
-                    </div> */}
+                      {console.log(`minutes`, minutes)} */}
+                    </div>
                <input type="submit" className="product-submit-btn" />
                </form>
               </div> 
