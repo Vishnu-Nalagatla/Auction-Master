@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Link } from 'react-router-dom'
 import './navbar.css'
 import AMLogo from '../../../../Assets/AMLogo.png'
 
@@ -10,7 +11,9 @@ function Navbar() {
             <li className="list products-services">PRODUCTS & SERVICES</li>
             <li className="list customer-cases">CUSTOMER CASES</li>
             <li className="list company">COMPANY</li>
-            <button className="book-a-demo">BOOK A DEMO</button>
+           
+            
+            <button className="book-a-demo"> <Link to='/SignUp' >SignUp </Link></button>
           </ul>
         </div>
 
