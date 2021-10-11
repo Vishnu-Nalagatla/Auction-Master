@@ -8,7 +8,7 @@ function SignUp() {
     return (
         <>
             <div className="form">
-            <form onSubmit={message} className="form-validate">
+            <form onSubmit={message} className="form-validate"  action="http://localhost:8080/register" method="post">
               <div className="signUp-login">
                 <div className="signUp-grid-container">
                   {/* <label>First Name</label> */}
