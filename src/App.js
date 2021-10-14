@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router,Switch, Link , Route} from 'react-router-dom'
+import { BrowserRouter as Router,Switch, Route} from 'react-router-dom'
 import Navbar from "./components/AuctionHomePage/Header/Navbar/Navbar";
 import AuctionHomePage from "./components/AuctionHomePage/AuctionHomePage";
 import ProductsServices from "./components/AuctionProductsServices/ProductsServices";
@@ -11,18 +11,19 @@ function App() {
     <div className="App">
       <div className="nav-container"><Navbar></Navbar></div>
 
-      <Router>
+      
         <Switch>
-          <Route exact path='/home'>
+          <Route exact path='/'>
       <AuctionHomePage></AuctionHomePage>
 
       <ProductsServices></ProductsServices>
       </Route>
-<Route exact path="/SignUp" component={SignUp} ></Route>
-
+<Route path="/signup" exact component={SignUp} ></Route>
         </Switch>
 
-      </Router>
+
+
+      
 
 
     </div>

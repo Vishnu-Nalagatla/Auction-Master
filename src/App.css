@@ -44,3 +44,10 @@
   box-sizing: border-box;
 
 }
+
+.App { 
+  background-image: url('https://i.ibb.co/JynK94k/Background.jpg');
+width: 100%;
+background-size: contain;
+background-repeat: no-repeat;
+}

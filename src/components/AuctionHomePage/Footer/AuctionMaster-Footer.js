@@ -19,13 +19,11 @@ function AuctionMasterFooter() {
                     {footerData.groupItems &&
                       footerData.groupItems.map((footerItems) => {
                         return (
-                          <Router>
                             <li className="footer-items-list">
                               <Link className="list-link">
                                 {footerItems.name}
                               </Link>
                             </li>
-                          </Router>
                         );
                       })}
 
