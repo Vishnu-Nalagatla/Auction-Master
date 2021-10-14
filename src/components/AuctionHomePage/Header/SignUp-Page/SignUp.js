@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState, useRef} from 'react'
 import './SignUp.css'
 
 function SignUp() {
     function message() {
         return alert("Hello!... Vishnu");
       }
+
     return (
         <>
       
@@ -34,4 +35,6 @@ function SignUp() {
     )
 }
 
+
 export default SignUp
+

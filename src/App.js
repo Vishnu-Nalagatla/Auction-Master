@@ -4,6 +4,7 @@ import Navbar from "./components/AuctionHomePage/Header/Navbar/Navbar";
 import AuctionHomePage from "./components/AuctionHomePage/AuctionHomePage";
 import ProductsServices from "./components/AuctionProductsServices/ProductsServices";
 import SignUp from "./components/AuctionHomePage/Header/SignUp-Page/SignUp";
+import SignUpPractice, { UserForm } from "./components/AuctionHomePage/Header/SignUp-Page/SignUpPractice"
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       </Route>
 <Route path="/signup" exact component={SignUp} ></Route>
         </Switch>
+        <UserForm></UserForm>
+
 
 
 
