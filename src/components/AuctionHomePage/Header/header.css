@@ -3,7 +3,6 @@
 .header-container {
   width: 100%;
   height: 100%;
-  background-color: hsl(240, 34%, 19%);
   /* border: solid 2px rgb(38, 0, 255); */
 }
 .auction-product-data { 
@@ -49,7 +48,6 @@ padding: 5% 9.1% 8% 9.2%;
 
 .header-footer {
   height: 8vh;
-  background-color: hsl(240, 34%, 19%);
 }
 
 @media (max-width: 760px) {

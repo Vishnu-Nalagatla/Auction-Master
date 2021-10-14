@@ -7,6 +7,7 @@ function SignUp() {
       }
     return (
         <>
+      
             <div className="form">
             <form onSubmit={message} className="form-validate">
               <div className="signUp-login">
