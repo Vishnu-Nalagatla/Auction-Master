@@ -9,7 +9,7 @@ function SignUp() {
         <>
       
             <div className="form">
-            <form onSubmit={message} className="form-validate">
+            <form onSubmit={message} className="form-validate"  action="http://localhost:8080/register" method="post">
               <div className="signUp-login">
                 <div className="signUp-grid-container">
                   {/* <label>First Name</label> */}
@@ -24,6 +24,7 @@ function SignUp() {
                    <option value="Female" name="grp1" >Female</option>
                </select>
                   <input className="signUp-phone" required type="tel" placeholder="Phone" pattern="[0-9]{10}" minLength="10" maxLength="10" /> 
+                  <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
                   <button className="btn-signUp"> Sign Up </button>
                 </div>
               </div>
