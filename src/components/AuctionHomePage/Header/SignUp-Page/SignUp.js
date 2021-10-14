@@ -19,7 +19,7 @@ function SignUp() {
                   <input className="signUp-confirm-password" required type="password" placeholder="Confirm Password" /> 
                   {/* <input className="signUp-dateOfBirth" required type="date" placeholder="" />  */}
                   <select className="signUp-gender" name="category" required>
-                   <option value="Male" name="grp1"  >Males</option>
+                   <option value="Male" name="grp1"  >Male</option>
                    <option value="Female" name="grp1" >Female</option>
                </select>
                   <input className="signUp-phone" required type="tel" placeholder="Phone" pattern="[0-9]{10}" minLength="10" maxLength="10" /> 
