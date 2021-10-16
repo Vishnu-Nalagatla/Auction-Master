@@ -16,7 +16,7 @@ function AuctionProductData({items}) {
 
               <div className="auction-current-bid-container">
               <div className="auctions-action-name action-current">Current Bid</div>
-              <div className="auctions-action-amount">{items.bidAmount}</div>
+              <div className="auctions-action-amount">{items.currentBidAmount}</div>
               </div>
           </div>
           <hr/>

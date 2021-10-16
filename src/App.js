@@ -17,6 +17,8 @@ function App() {
           <Route exact path='/'>
       <AuctionHomePage></AuctionHomePage>
 
+      </Route>
+      <Route exact path='/products&services'>
       <ProductsServices></ProductsServices>
       </Route>
 <Route path="/signup" exact component={SignUp} ></Route>

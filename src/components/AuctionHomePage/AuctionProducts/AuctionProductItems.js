@@ -8,7 +8,7 @@ function AuctionProductItems() {
   const [itemData, setItemData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:8080/SpringRest/getData", {
+      .get("https://api.npoint.io/aaa85844cab34d50c3c4", {
         headers: {
           "content-type": "application/json",
         },
