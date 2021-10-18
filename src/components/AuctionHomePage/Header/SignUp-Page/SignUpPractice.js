@@ -9,7 +9,7 @@ export const UserForm = (props) => {
   const submit = (e) => {
     e.preventDefault();
     console.log(e, "e");
-      fetch('/api', { method: 'POST', body: user })
+      fetch('/api', { method: 'POST', body: user })  // give a endpoint API with the "name" and "password" -----------------    "Vishnu Nalagatla"
         .then(res => res.json())
         .then(json => setUser(json.user))
     setShow(true);
