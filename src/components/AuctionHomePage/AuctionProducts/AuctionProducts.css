@@ -37,6 +37,7 @@
 .auction-card-images{
     width: 100%;
     height: 260px;
+    cursor: pointer;
 }
 .auction-item-name{
     font-size: 1.5em;

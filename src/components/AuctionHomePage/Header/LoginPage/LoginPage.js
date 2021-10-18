@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { Link } from 'react-router-dom'
 
 export const UserForm = (props) => {
   const [user, setUser] = useState({ name: "", password: "" });
@@ -29,15 +30,17 @@ export const UserForm = (props) => {
         name="user[password]"
         defaultValue={user?.password}
       />
-      <input type="submit" name="Sign Up" />
-      {
+      <Link to="/">
+      <button type="submit" name="SignUp" >Submit</button>
+      </Link>
+      {/* {
           show && (
             <>
               {user?.name && <p>{user?.name}</p>}
               {user?.password && <p>{user?.password}</p>}
             </>
           )
-      }
+      } */}
     </form>
   );
 };

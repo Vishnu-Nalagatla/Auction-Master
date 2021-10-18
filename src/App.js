@@ -4,7 +4,7 @@ import Navbar from "./components/AuctionHomePage/Header/Navbar/Navbar";
 import AuctionHomePage from "./components/AuctionHomePage/AuctionHomePage";
 import ProductsServices from "./components/AuctionProductsServices/ProductsServices";
 import SignUp from "./components/AuctionHomePage/Header/SignUp-Page/SignUp";
-import SignUpPractice, { UserForm } from "./components/AuctionHomePage/Header/SignUp-Page/SignUpPractice"
+import { UserForm } from "./components/AuctionHomePage/Header/LoginPage/LoginPage";
 
 
 function App() {
@@ -22,8 +22,11 @@ function App() {
       <ProductsServices></ProductsServices>
       </Route>
 <Route path="/signup" exact component={SignUp} ></Route>
+
+<Route path="/LoginPage" exact >
+  <UserForm></UserForm>
+</Route>
         </Switch>
-        <UserForm></UserForm>
 
 
 
