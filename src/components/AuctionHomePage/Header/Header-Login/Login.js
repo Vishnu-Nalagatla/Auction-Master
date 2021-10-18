@@ -1,5 +1,6 @@
 import React from 'react'
 import './headerLogin.css'
+import { Link } from 'react-router-dom'
 
 function Login() {
     function message() {
@@ -16,7 +17,9 @@ function Login() {
                   <input className="input-phone" required type="tel" placeholder="Phone" pattern="[0-9]{10}" minLength="10" maxLength="10" /> 
                   <textarea className="input-tellUs" required type="text" placeholder="Tell us more..." />
                   <button type="submit" className="btn-writeUs"> Write us </button>
+                  <Link to="/LoginPage"className="login-btn" >
                   <button className="btn-login"> Login </button>
+                  </Link>
                 </div>
               </div>
             </form>
