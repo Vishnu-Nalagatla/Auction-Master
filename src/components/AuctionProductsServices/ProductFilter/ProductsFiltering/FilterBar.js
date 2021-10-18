@@ -11,7 +11,7 @@ function FilterBar() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/SpringRest/getData")
+      .get("https://api.npoint.io/aaa85844cab34d50c3c4")
       .then((res) => res.data)
       .then((data) => setFilterData(data));
   }, []);
@@ -140,11 +140,11 @@ function FilterBar() {
         {filteredByCategory
           .sort((a, b) =>
             price === "Lowest-Highest"
-              ? a.bidAmount > b.bidAmount
+              ? a.currentBidAmount > b.currentBidAmount
                 ? 1
                 : -1
               : price === "Highest-Lowest"
-              ? a.bidAmount < b.bidAmount
+              ? a.currentBidAmount < b.currentBidAmount
                 ? 1
                 : -1
               : a.id > b.id

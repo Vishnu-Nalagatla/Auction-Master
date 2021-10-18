@@ -4,12 +4,15 @@ export const UserForm = (props) => {
   const [user, setUser] = useState({ name: "", password: "" });
   const [show, setShow] = useState(false);
   const form = useRef(null);
-  const [el, setEl] = useState("");
 
   const submit = (e) => {
     e.preventDefault();
     console.log(e, "e");
+<<<<<<< HEAD
       fetch('/api', { method: 'POST', body: user })  // give a endpoint API with the "name" and "password" -----------------    "Vishnu Nalagatla"
+=======
+      fetch('/signup', { method: 'POST', body: user })
+>>>>>>> 8408a2d52ff405f02d5c0c95d7d367fb24190d62
         .then(res => res.json())
         .then(json => setUser(json.user))
     setShow(true);

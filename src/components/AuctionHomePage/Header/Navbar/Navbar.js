@@ -10,7 +10,9 @@ function Navbar() {
       <img className="am_logo" alt="" src={AMLogo} />
       </Link>
       <ul className="nav-list">
+        <Link to="/products&services">
         <li className="list products-services">PRODUCTS & SERVICES</li>
+        </Link>
         <li className="list customer-cases">CUSTOMER CASES</li>
         <li className="list company">COMPANY</li>
         <Link to="/signup">
