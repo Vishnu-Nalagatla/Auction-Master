@@ -5,12 +5,13 @@ import AuctionHomePage from "./components/AuctionHomePage/AuctionHomePage";
 import ProductsServices from "./components/AuctionProductsServices/ProductsServices";
 import SignUp from "./components/AuctionHomePage/Header/SignUp-Page/SignUp";
 import { UserForm } from "./components/AuctionHomePage/Header/LoginPage/LoginPage";
+import SignUpYoutube from "./components/AuctionHomePage/Header/SignUp-Page/SignUpYoutube";
 
 
 function App() {
   return (
     <div className="App">
-      <div className="nav-container"><Navbar></Navbar></div>
+      {/* <div className="nav-container"><Navbar></Navbar></div>
 
       
         <Switch>
@@ -26,10 +27,10 @@ function App() {
 <Route path="/LoginPage" exact >
   <UserForm></UserForm>
 </Route>
-        </Switch>
+        </Switch> */}
 
 
-
+<SignUpYoutube></SignUpYoutube>
 
       
 

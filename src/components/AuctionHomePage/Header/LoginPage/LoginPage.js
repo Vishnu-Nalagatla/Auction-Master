@@ -17,13 +17,14 @@ export const UserForm = (props) => {
 
   return (
     <form ref={form} onSubmit={submit}>
+        <label>User Name : </label>
       <input
         onChange={(e) => setUser({ ...user, name: e.target.value })}
         type="text"
         name="user[name]"
         defaultValue={user?.name}
       />
-
+        <label>Password : </label>
       <input
         onChange={(e) => setUser({ ...user, password: e.target.value })}
         type="password"
