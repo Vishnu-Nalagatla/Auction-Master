@@ -121,18 +121,18 @@ if(validEmail.test(email)) {
             >
               <div className="signUp-login">
                 <div className="signUp-grid-container">
-                  <input className="first-name" type="text" style={styles} onChange={(e) => setFirstName(e.target.value)} placeholder="First Name"/>
-                  <input className="last-name" type="text" style={styles} onChange={(e) => setLastName(e.target.value)} placeholder="Last Name"/>
-                  <input className="signUp-email" type="text" style={styles} onChange={(e) => setEmail(e.target.value)} placeholder="Email" /> 
-                  <input className="signUp-password" type="password" style={styles} onChange={(e) => setPassword(e.target.value)} placeholder="Password" /> 
-                  <input className="signUp-confirm-password" type="password" style={styles} onChange={(e) => setConfirmPassword(e.target.value)} placeholder="Confirm Password" /> 
-                  <select className="signUp-gender" name="category">
+                  {/* <label>First Name</label> */}
+                  <input className="first-name" required type="text" placeholder="First Name" name="firstName"/>
+                  <input className="last-name" required type="text" placeholder="Last Name" name="lastName"/>
+                  <input className="signUp-email" required type="email" placeholder="Email" name="username" /> 
+                  <input className="signUp-password" required type="password" placeholder="Password" name ="password"/> 
+                  <input className="signUp-confirm-password" required type="password" placeholder="Confirm Password" /> 
+                  {/* <input className="signUp-dateOfBirth" required type="date" placeholder="" />  */}
+                  <select className="signUp-gender" name="gender" required>
                    <option value="Male" name="grp1"  >Male</option>
                    <option value="Female" name="grp1" >Female</option>
                </select>
-                  <input className="signUp-phone" type="tel" style={styles} onChange={(e) => setPhoneNumber(e.target.value)} placeholder="Phone"
-                  //  pattern="[0-9]{10}" minLength="10" maxLength="10" 
-                   /> 
+                  <input className="signUp-phone" required type="tel" placeholder="Phone" pattern="[0-9]{10}" minLength="10" maxLength="10" name="phone" /> 
                   <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
                   <button className="btn-signUp" type="submit"> Sign Up </button>
                 </div>
